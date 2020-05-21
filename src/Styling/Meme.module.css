@@ -1,0 +1,65 @@
+.MemeHeader{
+    background-image: linear-gradient(to right, rgb(59, 1, 59) , rgb(184, 3, 184));
+    height: 110px;
+    width:43%;
+}
+.MemeTag{
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    font-weight: bolder;
+    font-family: Rockwell;
+    color: whitesmoke;
+}
+.MemeHeaderImage{
+  position: relative;
+  padding: 5px;
+  width: 120px;
+  right: 35%;
+}
+.MemeImage{
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+  height: 300px;
+}
+.button {
+  background-color: rgb(131, 29, 131);
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  margin-right: 15px;
+}
+
+button:hover {background-color: purple}
+
+button:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.fontHeading{
+  font-family: Elephant;
+  color:purple;
+  text-shadow: 1px 1px gray;
+  font-size: 20px;
+}
